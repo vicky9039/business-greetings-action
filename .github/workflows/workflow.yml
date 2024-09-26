@@ -19,4 +19,4 @@ jobs:
         node-version: 18
 
     - name: run custom action
-      uses: vicky9039/business-greetings-action@main
+      uses: vicky9039/business-greetings-action/.github/workflows@main
