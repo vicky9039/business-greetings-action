@@ -10,4 +10,4 @@ outputs:
     description: 'Time of greeting'
 runs:
   using: 'node20'
-  main: 'index.js'
+  main: 'vicky9039/business-greetings-action/.github/workflows/index.js'
