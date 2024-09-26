@@ -11,12 +11,7 @@ jobs:
 
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
-
-    - name: Use Node.js 18
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
+      uses: actions/checkout@v3    
 
     - name: run custom action
       uses: vicky9039/business-greetings-action/.github/workflows@main
